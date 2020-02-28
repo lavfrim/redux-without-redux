@@ -7,7 +7,7 @@ class Two extends Component  {
     constructor(props) {
         super(props);
         this.infomitter = Object.prototype.infomitter;
-        this.state = this.infomitter.getIc(this, 'two', 'four'); // почему то не ребоатет с 'one', 'four', 'five'
+        this.state = this.infomitter.getIc(this, 'two', 'four'); 
     }
 
     componentDidUpdate() {
